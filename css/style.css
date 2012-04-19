@@ -12,7 +12,7 @@ body { text-align: center; margin: 0; font-size: 1em; line-height: 1.4; backgrou
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #eee; text-decoration: none; }
+a { color: #eee; text-decoration: none; font-weight: bold; }
 a:visited { color: #eee; }
 a:hover { color: #eee; }
 a:focus { outline: thin dotted; }
