@@ -7,7 +7,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
-body { margin: 0; font-size: 1em; line-height: 1.4; background-color: #333; color: #bbb; }
+body { text-align: center; margin: 0; font-size: 1em; line-height: 1.4; background-color: #333; color: #bbb; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -105,15 +105,9 @@ header {
   background-image: url('../img/stripes.png');
   color: #000;
   font-weight: bold;
-  text-align: center;
-}
-nav {
-  font-weight: bold;
-  text-align: center;
 }
 footer {
   font-size: x-small;
-  text-align: center;
 }
 #content {
   margin: 8px;
@@ -121,7 +115,17 @@ footer {
 #content div.item {
   display: inline-block;
   padding: 2px;
-  width: 128px;
+  width: 136px;
+}
+#content div.item a {
+  padding: 4px;
+  background-color: #222;
+  display: block;
+}
+#content div.item a:hover {
+  background-color: #000;
+  color: #fe57a1;
+  display: block;
 }
 .item span {
   font-weight: bold;
@@ -129,7 +133,4 @@ footer {
 .source {
   display: block;
   font-size: xx-small;
-}
-.symbol {
-  text-align: center;
 }
